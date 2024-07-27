@@ -2,7 +2,6 @@ from setuptools import setup, find_packages
 import os
 
 
-# Read the contents of the README file
 def read_long_description():
     with open("README.md", "r", encoding="utf-8") as fh:
         return fh.read()
@@ -10,7 +9,7 @@ def read_long_description():
 
 setup(
     name="veridian",
-    version="0.1.2",  # Updated version number
+    version="0.1.3",
     description="A simple SDK to clean tabular data using the Veridian API.",
     long_description=read_long_description(),
     long_description_content_type="text/markdown",
